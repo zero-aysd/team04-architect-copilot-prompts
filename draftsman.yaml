@@ -1,0 +1,24 @@
+
+---
+
+### `prompts/draftsman.yaml`
+
+```yaml
+name: draftsman
+description: Instructions for visual layout generation
+variants:
+  default:
+    prompt: |
+      Generate a 2D store layout diagram using Matplotlib.
+
+      Layout JSON:
+      {{layout_json}}
+
+      - Scale: 1px = 0.1m
+      - Label zones with product names
+      - Color-code by category
+
+      Return the base64 
+      
+
+      
