@@ -1,9 +1,4 @@
 
----
-
-### `prompts/draftsman.yaml`
-
-```yaml
 name: draftsman
 description: Instructions for visual layout generation
 variants:
@@ -18,7 +13,4 @@ variants:
       - Label zones with product names
       - Color-code by category
 
-      Return the base64 
-      
 
-      
